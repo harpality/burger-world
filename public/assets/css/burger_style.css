@@ -1,38 +1,25 @@
 body {
-    background-image: linear-gradient(white, white,#9fa8da  );
-    height: 100vh;
-    font-family: 'Rock Salt', cursive;
-    font-weight: 200;
-
-
-
+  background-image: linear-gradient(white, white, #9fa8da);
+  height: 100vh;
+  font-family: "Rock Salt", cursive;
 }
 
-.btn, .btn-small {
-    font-family: 'Rock Salt', cursive;
-    font-size: .5rem;
-    background-color: #b71c1c;
-
+.btn,
+.btn-small {
+  font-family: "Rock Salt", cursive;
+  font-size: 0.5rem;
+  background-color: #b71c1c;
 }
 
 .btn-small {
-    margin-left: .75rem;
-    margin-top: .25rem;
+  margin-left: 0.75rem;
+  margin-top: 0.25rem;
 }
 
 .btn {
-    margin-bottom: 1rem;
+  margin-bottom: 1rem;
 }
 
-.title-pic{
-    height: 20vh;
-
+.title-pic {
+  height: 20vh;
 }
-
-/* #to-eat {
-    display: inline-block;
-}
-
-#eaten {
-    display: inline-block;
-} */
