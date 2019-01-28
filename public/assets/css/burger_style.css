@@ -1,8 +1,17 @@
 body {
-    background-image: linear-gradient(white);
+    background-image: linear-gradient(white, white,#9fa8da  );
     height: 100vh;
-    
+    font-family: 'Rock Salt', cursive;
+    font-weight: 200;
 
+
+
+}
+
+.btn, .btn-small {
+    font-family: 'Rock Salt', cursive;
+    font-size: .5rem;
+    background-color: #b71c1c;
 
 }
 
@@ -11,10 +20,10 @@ body {
 
 }
 
-#to-eat {
+/* #to-eat {
     display: inline-block;
 }
 
 #eaten {
     display: inline-block;
-}
+} */
