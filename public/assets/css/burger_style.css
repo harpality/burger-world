@@ -1,3 +1,20 @@
 body {
-    background-color: pink;
+    background-image: linear-gradient(white);
+    height: 100vh;
+    
+
+
+}
+
+.title-pic{
+    height: 20vh;
+
+}
+
+#to-eat {
+    display: inline-block;
+}
+
+#eaten {
+    display: inline-block;
 }
