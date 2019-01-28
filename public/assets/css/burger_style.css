@@ -23,3 +23,55 @@ body {
 .title-pic {
   height: 20vh;
 }
+
+.logo {
+  animation-name: dropdown;
+  animation-duration: 1.5s;
+  animation-iteration-count: 1;
+  animation-timing-function: linear;
+  position: relative;
+}
+
+.menu {
+  animation-name: fromLeft;
+  animation-duration: 1.5s;
+  animation-iteration-count: 1;
+  animation-timing-function: linear;
+  position: relative;
+}
+
+#eaten {
+  animation-name: fromRight;
+  animation-duration: 1.5s;
+  animation-iteration-count: 1;
+  animation-timing-function: linear;
+  position: relative;
+}
+@keyframes dropdown {
+  0% {
+    top: -200px;
+  }
+  100% {
+    top: 0px;
+  }
+}
+
+@keyframes fromLeft {
+  0% {
+    left: -100px;
+  }
+
+  100% {
+    left: 0px;
+  }
+}
+
+@keyframes fromRight {
+  0% {
+    right: -100px;
+  }
+
+  100% {
+    right: 0px;
+  }
+}
