@@ -15,6 +15,15 @@ body {
 
 }
 
+.btn-small {
+    margin-left: .75rem;
+    margin-top: .25rem;
+}
+
+.btn {
+    margin-bottom: 1rem;
+}
+
 .title-pic{
     height: 20vh;
 

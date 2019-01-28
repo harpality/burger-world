@@ -19,7 +19,7 @@
                 </li>
                 {{#each burgers}}
                 {{#unless this.devoured}}
-                <li class="collection-item">#{{this.id}} - {{this.burger_name}} <button data-id="{{this.id}}" class="waves-effect btn-small devour">Devour
+                <li class="collection-item">#{{this.id}} - {{this.burger_name}} <button data-id="{{this.id}}" class="waves-effect waves-red btn-small devour">Devour
                         It!</button>
                 </li>
                 {{/unless}}
