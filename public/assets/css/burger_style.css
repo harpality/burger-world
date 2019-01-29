@@ -1,7 +1,11 @@
+
+
 body {
   background-image: linear-gradient(white, white, #9fa8da);
-  height: 100vh;
+  min-height: 100vh;
   font-family: "Rock Salt", cursive;
+  font-size: 1rem;
+  overflow: auto;
 }
 
 .btn,
@@ -26,7 +30,7 @@ body {
 
 .logo {
   animation-name: dropdown;
-  animation-duration: 1.5s;
+  animation-duration: .75s;
   animation-iteration-count: 1;
   animation-timing-function: linear;
   position: relative;
@@ -34,7 +38,7 @@ body {
 
 .menu {
   animation-name: fromLeft;
-  animation-duration: 1.5s;
+  animation-duration: .75s;
   animation-iteration-count: 1;
   animation-timing-function: linear;
   position: relative;
@@ -42,7 +46,7 @@ body {
 
 #eaten {
   animation-name: fromRight;
-  animation-duration: 1.5s;
+  animation-duration: .75s;
   animation-iteration-count: 1;
   animation-timing-function: linear;
   position: relative;
@@ -74,4 +78,28 @@ body {
   100% {
     right: 0px;
   }
+}
+
+
+@media only screen and (max-width: 411px){
+  body {
+    font-size: 1rem;
+    min-height: 100%;
+    background-image: linear-gradient(white, white, #9fa8da);
+
+  }
+
+  .btn,
+  .btn-small {
+    font-size: .5rem;
+  }
+
+  .input-field {
+    font-size: 1rem;
+  }
+
+  #burger {
+    margin-top: 2rem;
+  }
+  
 }
